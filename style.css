@@ -33,6 +33,9 @@ ul li a{
     font-family: sans-serif;
     color: rgb(253, 253, 253);
 }
+ul li a:hover{
+    color: rgb(5, 117, 161);
+} 
 .search{
     padding: 10px;
 }
@@ -41,10 +44,15 @@ ul li a{
     width: 250px;
     height: 28px;
     border: none;
+    cursor: pointer;
 }
 .btn{
     width: 80px;
     height: 28px;
+    cursor: pointer;
+}
+.btn:hover{
+    color: rgb(5, 103, 116);
 }
 .srch::placeholder{
    font-size: 14px;
