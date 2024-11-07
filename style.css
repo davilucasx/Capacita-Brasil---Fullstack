@@ -6,8 +6,8 @@
     list-style-type: none;
 }
 body{
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
 }
 header{
     background-color: rgb(3, 53, 68);
@@ -16,11 +16,9 @@ header{
     padding: 10px;
 }
 nav{
-   
-    display: flex ;
-    justify-content: space-between;
-    align-content: center;
-    align-items: center;
+   display: flex;
+   justify-content: center;
+    
 }
 ul{
     display: flex;
@@ -29,33 +27,35 @@ ul li{
     padding: 10px;
 }
 ul li a{
+    margin: 20px;
     font-size: 18px;
     font-family: sans-serif;
     color: rgb(253, 253, 253);
 }
 ul li a:hover{
-    color: rgb(5, 117, 161);
+    color: rgb(8, 143, 98);
 } 
 .search{
-    padding: 10px;
+    position: absolute;
+    
+    left: 40%;
+    margin-top: 20px;
+    height: 45px;
+    padding: 25px;
+    border-radius: 30px;
+    background-color: rgb(3, 53, 68);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.srch{
-    border-radius: 2px;
-    width: 250px;
-    height: 28px;
-    border: none;
-    cursor: pointer;
+.src{
+   border: none;
+   background: none;
+   outline: none;
+   color: rgb(255, 255, 255);
+   font-size: 16px;
+   font-family: sans-serif;
 }
-.btn{
-    width: 80px;
-    height: 28px;
-    cursor: pointer;
-}
-.btn:hover{
-    color: rgb(5, 103, 116);
-}
-.srch::placeholder{
-   font-size: 14px;
-   color: rgb(3, 53, 68);
-   font-weight: 500;
+.search a img{
+    width: 60px;
 }
